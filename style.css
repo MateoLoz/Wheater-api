@@ -1,0 +1,127 @@
+:root{
+    background-color: #373737;
+}
+
+body{
+    display: grid;
+    place-content: center;
+    margin-top: 100px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.Wheater-card{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background: linear-gradient(to top,rgba(239, 200, 44, 0.864),#ff5b0fd0);   
+    height: 405px;
+    width: 300px;
+    border-radius: 40px;
+    animation: all .300ms ease-in-out;
+}
+
+.header-card{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    align-content: center;
+    align-content: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 20px;
+}
+
+.serch-input{
+    background-color: #fff;
+    border-radius: 20px;
+    border-style: none;
+    height: 30px;
+    padding-left: 0.6em;
+}
+
+
+
+.Serch-button{
+    border-radius: 100%;
+    border-style: none;
+    display: flex;
+    align-items: center;
+    align-content: center;
+
+}
+
+.img-serch-icon{
+    width: 16px;
+    height: 16px;
+}
+
+
+
+
+
+
+
+
+.Section-card{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    align-items: center;
+    align-content: center;
+
+}
+.time-img{
+width: 88px;
+height: 88px;
+
+}
+
+.Main-card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.Temperature-tittle{
+    display: inline-flex;
+    align-self: center;
+    height: 4px;
+    font-weight: 600;
+    color: #fff;
+}
+.City-tittle{ 
+    display: inline-flex;
+    align-self: center;
+    height: 9px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   margin-top: 27px;
+   margin-left: 35px;
+   margin-right: 35px;
+
+}
+.humidity{
+    width: 40px;
+    height: 40px;
+}
+.container-card{
+display: flex;
+flex-direction: row;
+align-items: center;
+align-content: center;
+text-align: center;
+}
+.info{
+    display: inline;
+    margin-bottom: 12px;
+    margin-left: 5px;
+    color: #fff;
+    font-weight: 300;
+
+}

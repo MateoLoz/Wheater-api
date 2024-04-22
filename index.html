@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wheather app</title>
+<link rel="stylesheet" href="./style.css">    
+</head>
+<body>
+  <article id="Card" class="Wheater-card">
+    <header class="header-card">
+        <input id="city" class="serch-input" type="text" placeholder="Enter City">
+        <button id="serch" class="Serch-button"><img class="img-serch-icon" src="./img/search.png" alt=""></button>
+    </header>
+    <section class="Section-card">
+        <img id="img" class="time-img" src="./img/sun (1).png" alt="">
+    </section>
+    <main class="Main-card">
+        <h1 id="temperature" class="Temperature-tittle"></h1>
+        <h2 id="city-tittle" class="City-tittle"></h2>
+    </main>
+    <footer class="Footer-card">
+        <div class="container">
+            <article class="container-card">
+                <img class="humidity" src="./img/humidity.png" alt="">
+                <aside>
+                    <h4 id="humedad-info" class="info"></h4>
+                    <br>
+                    <h4 id="uva" class="info"></h4>
+                </aside>
+            </article>
+            <article class="container-card">
+                <img class="humidity" src="./img/wind.png" alt="">
+                <aside>
+                    <h4 id="wind-inf"class="info"></h4>
+                    <br>
+                    <h4 id="win" class="info"></h4>
+                </aside>
+            </article>
+        </div>
+        
+    </footer>
+  </article>  
+  <script src="App.js"></script>
+</body>
+</html>
